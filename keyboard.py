@@ -38,7 +38,7 @@ button_q2_r4 = InlineKeyboardButton('4', callback_data='/q2_r4')
 button_q2_r5 = InlineKeyboardButton('5', callback_data='/q2_r5')
 button_q2_r6 = InlineKeyboardButton('6', callback_data='/q2_r6')
 button_next_q = InlineKeyboardButton(
-    'Следующий вопрос', '/next_q')
+    'Следующий вопрос', callback_data='/next_q')
 markup_q2 = InlineKeyboardMarkup()
 markup_q2.row(button_q2_r1, button_q2_r2, button_q2_r3)
 markup_q2.row(button_q2_r4, button_q2_r5, button_q2_r6)
